@@ -1,0 +1,436 @@
+.videoBackground {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.videoBackgroundContainer {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.menuContainerfalsefalse {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+}
+
+.menuContainertruefalse {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+  animation: transparency;
+  animation-duration: 5s;
+}
+
+.menuContainertruetrue {
+  display: none;
+}
+
+.enterButtonfalsefalse {
+  background-color: #70ce79;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin-top: 25%;
+  border: none;
+  outline: none;
+  transition-duration: 0.5s;
+}
+
+.enterButtontruefalse {
+  background-color: #70ce79;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin-top: 25%;
+  border: none;
+  outline: none;
+  transition-duration: 0.5s;
+  animation: transparency1;
+  animation-duration: 5s;
+}
+
+.enterButtontruetrue {
+  display: none;
+}
+
+.enterTitlefalsefalse {
+  position: fixed;
+  /* font-family: Nova Mono, monospace; */
+  font-family: "Gowun Batang", serif;
+  font-weight: 300;
+  font-size: 150px;
+  left: calc(50vw - 290px);
+  top: 50px;
+  color: #d8decf;
+}
+
+.enterTitletruefalse {
+  position: fixed;
+  font-family: "Gowun Batang", serif;
+  font-weight: 300;
+  font-size: 150px;
+  left: calc(50vw - 290px);
+  top: 50px;
+  color: #d8decf;
+  animation: transparency2;
+  animation-duration: 5s;
+}
+
+.enterTitletruetrue {
+  display: none;
+}
+
+.enterButton:hover {
+  background-color: #65a26a;
+}
+
+.enterButton:active {
+  background-color: #89ea92;
+}
+
+@keyframes transparency2 {
+  0% {
+    color: #d8decf;
+  }
+  100% {
+    color: transparent;
+  }
+}
+
+@keyframes transparency1 {
+  0% {
+    background-color: #70ce79;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes transparency {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.backgroundVideofalse {
+  display: none;
+}
+
+.backgroundVideotrue {
+  display: block;
+  animation: transparency3;
+  animation-duration: 10s;
+}
+
+@keyframes transparency3 {
+  0% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes transparency4 {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.page1title {
+  position: absolute;
+  z-index: 5;
+  bottom: 70%;
+  font-family: "Gowun Batang", serif;
+  font-weight: 300;
+  font-size: 80px;
+  color: #020202;
+  animation: transparency4;
+  animation-duration: 10s;
+  margin-left: 3vw;
+}
+
+.page1Description {
+  position: absolute;
+  z-index: 5;
+  bottom: 63%;
+  font-family: "Gowun Batang";
+  font-weight: 300;
+  font-size: 40px;
+  animation: transparency4;
+  animation-duration: 15s;
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+.page1Description2 {
+  position: absolute;
+  z-index: 5;
+  bottom: 59%;
+  font-family: "Gowun Batang";
+  font-weight: 300;
+  font-size: 40px;
+  animation: transparency4;
+  animation-duration: 15s;
+  margin-left: 3vw;
+}
+
+.page2 {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Gowun Batang";
+  height: fit-content;
+}
+
+.page2title {
+  font-size: 50px;
+  margin-left: 3vw;
+}
+
+.page2Description1 {
+  margin-top: 20px;
+  margin-left: 3vw;
+  font-size: 35px;
+  margin-right: 2vw;
+}
+
+.page2Description2 {
+  margin-top: 10px;
+  margin-left: 3vw;
+  font-size: 35px;
+  margin-right: 2vw;
+}
+
+.page2Description3 {
+  margin-top: 25px;
+  margin-left: 3vw;
+  font-size: 35px;
+  text-align: justify;
+  padding-bottom: 50px;
+  margin-right: 2vw;
+}
+
+.page2Description4 {
+  margin-left: 2vw;
+  font-size: 22px;
+  display: inline;
+  margin-right: 2vw;
+  margin-left: 3vw;
+}
+
+.page3 {
+  min-height: 60vh;
+  width: 100%;
+  font-family: "Gowun Batang";
+  margin-top: 0vh;
+}
+
+.mountains {
+  margin-top: 700vh;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.page3title {
+  margin-top: 10vh;
+  margin-left: 3vw;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.page3Description1 {
+  margin-top: 1vh;
+  margin-left: 3vw;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+
+
+
+.name {
+  font-size: 55px;
+  margin-left: 20px;
+  color: #89ea92;
+  margin-left: 20vw;
+}
+
+header {
+  height: 30px;
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  background-color: #dadada;
+  opacity: 0.1;
+  color: black;
+  -webkit-app-region: drag;
+  transition: ease-in;
+}
+
+.option {
+  z-index: 30;
+  width: 30px;
+  height: 30px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  opacity: 0.1;
+  line-height: 30px;
+  -webkit-app-region: none;
+}
+
+.option:hover {
+  opacity: 100;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Gowun Batang";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("GowunBatang-Regular.ttf") format("woff2");
+}
+
+
+.pitzerPhoto1 {
+  margin-top: 200vh;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.muddPhoto1 {
+  margin-top: 300vh;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.muddPhoto2 {
+  margin-top: 400vh;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.muddPhoto3 {
+  margin-top: 500vh;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.pitzerPhoto2 {
+  margin-top: 600vh;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.page4 {
+  font-family: Gowun Batang;
+  font-size: 48px;
+  display: inline;
+  color: white;
+}
+
+.page41Description {
+  margin-top: 3vh;
+  margin-left: 3vw;
+}
+
+.page42Description {
+  margin-top: 0vh;
+  margin-left: 3vw;
+  color: #020202;
+}
+
+.page43Description {
+  margin-top: 0vh;
+  margin-left: 3vw;
+  color: #020202;
+}
+
+.page44Description {
+  padding-top: 5vh;
+  margin-left: 9vw;
+}
+
+.page45Description {
+  margin-top: 0vh;
+  margin-left: 3vw;
+}
+
+.page41 {
+  min-height: 100vh;
+}
+
+.page42 {
+  min-height: 100vh;
+}
+
+.page43 {
+  min-height: 100vh;
+}
+
+.page44 {
+  min-height: 100vh;
+}
+
+.page45 {
+  min-height: 100vh;
+}
+
